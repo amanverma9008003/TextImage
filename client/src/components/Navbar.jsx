@@ -14,7 +14,7 @@ const Navbar = () => {
     initial={{opacity:0.2, y:100}} transition={{duration:1}} whileInView={{opacity:1, y:0}}>
         <Link to='/'>
         <div className='flex items-center bg-tailwind-blue-500 text-sm rounded-full shadow-lg w-fit-100 px-2 sm:px-1.5 py-2 sm:py-1 rounded-full cursor-pointer hover:scale-110 drop-shadow transition-all duration-700'>
-            <img src='../../public/icon.png' alt='logo' className='w-10 h-10 sm:w-10 sm:h-10 lg:w-15 lg:h-15 '/>
+            <img src={assets.icon} alt='logo' className='w-10 h-10 sm:w-10 sm:h-10 lg:w-15 lg:h-15 '/>
             <p className='text-xl font-medium text-center text-teal-600 sm:text-2xl px-2'>Tex<span className='text-purple-500 font-extrabold'>@</span>ge</p>
         </div>
         </Link>
